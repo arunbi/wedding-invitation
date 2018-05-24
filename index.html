@@ -2,7 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+    <title>오주헌과 윤지현</title>
+    <meta property="og:url" content="http://dev.designfever.com/test/invi/">
+    <meta property="og:title" content="오주헌과 윤지현">
+    <meta property="og:type" content="website">
+    <!--<meta property="og:image" content="./kakaolink/travelcode.jpg">-->
+    <meta property="og:description" content="7월 7일, 우리의 결혼식에 초대합니다">
+    <meta name="description" content="7월 7일, 우리의 결혼식에 초대합니다">
+
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
@@ -40,11 +52,45 @@
         }
 
         .sec-3 {
+            position: relative;
             width: 100%;
             height: 0;
-            padding-top: 81.6425%;
+            padding-top: 89.4524%;
             background: url("images/2.jpg") 0 0 no-repeat;
             background-size: 100% auto;
+        }
+
+        .sec-3 .btn-area {
+            position: absolute;
+            bottom: 0; left: 7.326%;
+            width: 92.674%;
+            font-size: 0;
+        }
+        .sec-3 .btn-area a {display: inline-block;}
+        .sec-3 .btn-area a:last-child {margin-left: 2.576%;}
+        .sec-3 .btn-area a img {
+            display: block;
+            width: 30.4347vw; height: auto;
+        }
+
+        .sec-4 {
+            position: relative;
+            width: 100%;
+            height: 0;
+            padding-top: 109.903%;
+            background: url("images/3.jpg") 0 0 no-repeat;
+            background-size: 100% auto;
+        }
+        .sec-4 a {
+            display: block;
+            position: absolute;
+            left: 7.326%; bottom: 16.505vw;
+            width: 85.26%;
+            margin: 0 auto;
+        }
+        .sec-4 a img {
+            display: block;
+            width: 100%; height: auto;
         }
     </style>
 </head>
@@ -62,7 +108,15 @@
                 <div><img src="images/tmp_2.jpg" alt=""></div>
             </div>
         </section>
-        <section class="sec-3"></section>
+        <section class="sec-3">
+            <div class="btn-area">
+                <a href="tel:010-8515-4126"><img src="images/btn_1.jpg" alt=""></a>
+                <a href="tel:010-3364-6988"><img src="images/btn_2.jpg" alt=""></a>
+            </div>
+        </section>
+        <section class="sec-4">
+            <a href="http://www.scconvention.co.kr/new_2013/about/about_04.asp " target="_blank"><img src="images/btn_3.jpg" alt=""></a>
+        </section>
     </div>
 </div>
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
